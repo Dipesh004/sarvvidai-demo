@@ -20,7 +20,7 @@ export default function Services() {
     <Box
       sx={{
         marginTop: "0rem",
-        height: "550px",
+        height: "450px",
         // overflow: "hidden",
         // bgcolor: "red",
         display: "flex",

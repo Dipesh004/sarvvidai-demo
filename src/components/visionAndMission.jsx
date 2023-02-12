@@ -46,7 +46,12 @@ export default function VandM() {
               VISION
             </Typography>
           </Box>
-          <Typography variant="h4" color={"#1B75BB"} margin={"1rem 0rem"}>
+          <Typography
+            variant="h4"
+            color={"#1B75BB"}
+            sx={{ fontWeight: "bold" }}
+            margin={"1rem 0rem"}
+          >
             WHO WE ARE?
           </Typography>
           <Typography variant="body1" fontSize={"large"} color={"white"}>
@@ -99,7 +104,12 @@ export default function VandM() {
               MISSION
             </Typography>
           </Box>
-          <Typography variant="h4" color={"#1B75BB"} margin={"1rem 0rem"}>
+          <Typography
+            variant="h4"
+            sx={{ fontWeight: "bold" }}
+            color={"#1B75BB"}
+            margin={"1rem 0rem"}
+          >
             WHAT WE DO?
           </Typography>
           <Typography variant="body1" fontSize={"large"} color={"white"}>
