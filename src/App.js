@@ -11,6 +11,7 @@ import Features from "./components/features";
 
 export default class App extends Component {
   render() {
+    
     return (
       <Box sx={{ bgcolor: "#0C0310" }}>
         <Navbar />
