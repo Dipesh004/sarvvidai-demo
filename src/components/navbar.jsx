@@ -33,7 +33,7 @@ export default function Navbar() {
     if (item === project) return "project";
     if (item === blogs) return "blogs";
     if (item === about) return "about";
-    return "contactus";
+    return "contact us";
   };
   const styleLogic = (item) => {
     if (item === home) return { height: "25px", color: "white" };
@@ -62,56 +62,4 @@ export default function Navbar() {
       </AppBar>
     </Box>
   );
-}
-
-{
-  /* <Button color="inherit">
-              <Lottie
-                style={{ height: "25px", color: "white" }}
-                animationData={home}
-              />
-              Home
-            </Button>
-            <Button color="inherit">
-              <Lottie
-                style={{ height: "40px", color: "white" }}
-                animationData={features}
-              />
-              Features
-            </Button>
-            <Button color="inherit">
-              <Lottie
-                style={{ height: "40px", color: "white" }}
-                animationData={pricing}
-              />
-              Pricing
-            </Button>
-            <Button color="inherit">
-              <Lottie
-                style={{ height: "40px", color: "white" }}
-                animationData={project}
-              />
-              Projects
-            </Button>
-            <Button color="inherit">
-              <Lottie
-                style={{ height: "40px", color: "white" }}
-                animationData={blogs}
-              />
-              Blogs
-            </Button>
-            <Button color="inherit">
-              <Lottie
-                style={{ height: "40px", color: "white" }}
-                animationData={about}
-              />
-              About
-            </Button>
-            <Button color="inherit">
-              <Lottie
-                style={{ height: "40px", color: "white" }}
-                animationData={contactus}
-              />
-              Contact Us
-            </Button> */
 }
